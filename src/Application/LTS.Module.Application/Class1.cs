@@ -1,4 +1,4 @@
-﻿namespace LTS.Module.Domain
+﻿namespace LTS.Module.Application
 {
     public class Class1
     {
