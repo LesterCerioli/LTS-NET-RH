@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace LTS.Module.Persistence.Adapter.Models
 {
-    internal interface IExtendableObject
+    public interface IExtendableObject
     {
+        string ExtensionData { get; set; }
     }
 }

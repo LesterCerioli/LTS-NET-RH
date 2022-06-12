@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace LTS.Module.Persistence.Adapter.Models
 {
-    internal interface IEntityWithTypedId
+    public interface IEntityWithTypedId<TId>
     {
+        TId Id { get; }
     }
 }

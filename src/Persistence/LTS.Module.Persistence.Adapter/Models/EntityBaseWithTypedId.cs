@@ -1,7 +1,14 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
 namespace LTS.Module.Persistence.Adapter.Models
 {
-    public class EntityBaseWithTypedId
+    public abstract class EntityBaseWithTypedId<TId> : ValidatableObject, IEntityWithTypedId<TId>
     {
-        
+        public virtual TId Id { get; protected set; }
+
     }
 }
