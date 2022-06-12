@@ -1,10 +1,10 @@
-name: LTS NET RH CI & CD
+name: LTS NET RH Main
 
 on:
   push:
-    branches: [ master ]
+    branches: [ main ]
   pull_request:
-    branches: [ master ]
+    branches: [ main ]
 
 jobs:
   build:
