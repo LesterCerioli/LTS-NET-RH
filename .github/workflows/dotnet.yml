@@ -1,4 +1,4 @@
-name: LTS NET RH Main
+name: .NET
 
 on:
   push:
