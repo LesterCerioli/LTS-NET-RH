@@ -41,7 +41,7 @@ namespace LTS.Module.Domain.Models
 
         public List<Phone> Phones { get; set; }
 
-        public BankAccount BankAccount { get; set; }
+        //public BankAccount BankAccount { get; set; }
 
         //public List<Benefit> Benefits { get; set; }
         public List<Parent> Parents { get; set; }
