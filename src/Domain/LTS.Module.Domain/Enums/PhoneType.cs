@@ -4,10 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace LTS.Module.Domain.Models
+namespace LTS.Module.Domain.Enums
 {
-    public class PIS
+    public enum PhoneType
     {
-        public string Number { get; set; }
+        Residencial = 1,
+        Mobile = 2,
+        Emergency = 3
     }
 }
