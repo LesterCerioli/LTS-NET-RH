@@ -19,31 +19,31 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Rest", "Rest", "{460E4888-0
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LTS.Module.RestAdapter", "src\Resr\LTS.Module.RestAdapter\LTS.Module.RestAdapter.csproj", "{1E4EC65D-3BD6-484C-A4F0-A4E17D325E81}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LTS.Module.Persistence.CrossCutting.Bus", "src\Persistence\CrossCutting\Bus\LTS.Module.Persistence.CrossCutting.Bus\LTS.Module.Persistence.CrossCutting.Bus.csproj", "{1B0D5796-E5A7-4328-9177-502913D9A71F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LTS.Module.Persistence.CrossCutting.Bus", "src\Persistence\CrossCutting\Bus\LTS.Module.Persistence.CrossCutting.Bus\LTS.Module.Persistence.CrossCutting.Bus.csproj", "{1B0D5796-E5A7-4328-9177-502913D9A71F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LTS.Module.Persistence.CrossCutting.IoC", "src\Persistence\CrossCutting\IoC\LTS.Module.Persistence.CrossCutting.IoC\LTS.Module.Persistence.CrossCutting.IoC.csproj", "{ACDAE615-8D67-4B0D-8155-673D571FF05C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LTS.Module.Persistence.CrossCutting.IoC", "src\Persistence\CrossCutting\IoC\LTS.Module.Persistence.CrossCutting.IoC\LTS.Module.Persistence.CrossCutting.IoC.csproj", "{ACDAE615-8D67-4B0D-8155-673D571FF05C}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{44280D4B-603C-4204-B2F5-03F7CE9E51B5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LTS.Module.Application", "src\Application\LTS.Module.Application\LTS.Module.Application.csproj", "{A6D6E4FA-DC85-4238-9BC5-31F0C3F8B4E0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LTS.Module.Application", "src\Application\LTS.Module.Application\LTS.Module.Application.csproj", "{A6D6E4FA-DC85-4238-9BC5-31F0C3F8B4E0}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{FF03F84F-DB09-42B8-A07F-52C10937696C}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{B028C121-EC61-4C6F-A49A-7964AEDBB01B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LTS.Module.Domain.Tests", "test\Domain\LTS.Module.Domain.Tests\LTS.Module.Domain.Tests.csproj", "{B2F27AAE-0605-4CBB-B6EF-F417765A7FD1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LTS.Module.Domain.Tests", "test\Domain\LTS.Module.Domain.Tests\LTS.Module.Domain.Tests.csproj", "{B2F27AAE-0605-4CBB-B6EF-F417765A7FD1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LTS.Module.DomainAPI.Tests", "test\Domain\LTS.Module.DomainAPI.Tests\LTS.Module.DomainAPI.Tests.csproj", "{DEA246FE-247D-4244-AA99-B6EABB90272E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LTS.Module.DomainAPI.Tests", "test\Domain\LTS.Module.DomainAPI.Tests\LTS.Module.DomainAPI.Tests.csproj", "{DEA246FE-247D-4244-AA99-B6EABB90272E}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{631056C3-670F-4767-9C34-5981CCA69816}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LTS.Module.Applicarion.Tests", "test\Application\LTS.Module.Applicarion.Tests\LTS.Module.Applicarion.Tests.csproj", "{FD284F3C-F1A4-4FAA-9BE7-4B83671FCDA2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LTS.Module.Applicarion.Tests", "test\Application\LTS.Module.Applicarion.Tests\LTS.Module.Applicarion.Tests.csproj", "{FD284F3C-F1A4-4FAA-9BE7-4B83671FCDA2}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Persistence", "Persistence", "{2425A82C-3E83-4A89-99E3-80CF5D3A7EC2}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Adapter", "Adapter", "{CB724464-8B35-44B1-B4A4-7A76AC05D415}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LTS.Module.Persistence.Adapter.Tests", "test\Persistence\Adapter\LTS.Module.Persistence.Adapter.Tests\LTS.Module.Persistence.Adapter.Tests.csproj", "{B130DF32-3FF1-494C-BE85-DE2F2156D76B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LTS.Module.Persistence.Adapter.Tests", "test\Persistence\Adapter\LTS.Module.Persistence.Adapter.Tests\LTS.Module.Persistence.Adapter.Tests.csproj", "{B130DF32-3FF1-494C-BE85-DE2F2156D76B}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CrossCutting", "CrossCutting", "{C02956C3-616D-4BB1-845E-B4D84150FD16}"
 EndProject
@@ -51,9 +51,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Bus", "Bus", "{FCC8F2DD-329
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IoC", "IoC", "{69A4015F-3793-4426-872B-D2622AD315CB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LTS.Module.Persistence.CrossCutting.IoC.Tests", "test\Persistence\CrossCutting\IoC\LTS.Module.Persistence.CrossCutting.IoC.Tests\LTS.Module.Persistence.CrossCutting.IoC.Tests.csproj", "{22C6E903-5439-4EC5-9E71-E4F44BFF210A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LTS.Module.Persistence.CrossCutting.IoC.Tests", "test\Persistence\CrossCutting\IoC\LTS.Module.Persistence.CrossCutting.IoC.Tests\LTS.Module.Persistence.CrossCutting.IoC.Tests.csproj", "{22C6E903-5439-4EC5-9E71-E4F44BFF210A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LTS.Module.Persistence.CrossCutting.Bus", "test\Persistence\CrossCutting\Bus\LTS.Module.Persistence.CrossCutting.Bus\LTS.Module.Persistence.CrossCutting.Bus.csproj", "{252B9A98-1E25-40E4-97A1-9208BA9384CA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LTS.Module.Persistence.CrossCutting.Bus", "test\Persistence\CrossCutting\Bus\LTS.Module.Persistence.CrossCutting.Bus\LTS.Module.Persistence.CrossCutting.Bus.csproj", "{252B9A98-1E25-40E4-97A1-9208BA9384CA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Microservices", "Microservices", "{9C6BAA73-F7EB-474A-BB7E-41DFC4EBCBB1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LTS.Module.Rh", "src\Microservices\LTS.Module.Rh\LTS.Module.Rh.csproj", "{767B4EEF-AE95-48E5-8990-1F166753A011}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -113,6 +117,10 @@ Global
 		{252B9A98-1E25-40E4-97A1-9208BA9384CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{252B9A98-1E25-40E4-97A1-9208BA9384CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{252B9A98-1E25-40E4-97A1-9208BA9384CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{767B4EEF-AE95-48E5-8990-1F166753A011}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{767B4EEF-AE95-48E5-8990-1F166753A011}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{767B4EEF-AE95-48E5-8990-1F166753A011}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{767B4EEF-AE95-48E5-8990-1F166753A011}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -142,6 +150,8 @@ Global
 		{69A4015F-3793-4426-872B-D2622AD315CB} = {C02956C3-616D-4BB1-845E-B4D84150FD16}
 		{22C6E903-5439-4EC5-9E71-E4F44BFF210A} = {69A4015F-3793-4426-872B-D2622AD315CB}
 		{252B9A98-1E25-40E4-97A1-9208BA9384CA} = {FCC8F2DD-3290-4A58-B770-0D76F7AD7C4A}
+		{9C6BAA73-F7EB-474A-BB7E-41DFC4EBCBB1} = {453ADAE7-C257-4F2F-8B0F-57D8C56AF5F2}
+		{767B4EEF-AE95-48E5-8990-1F166753A011} = {9C6BAA73-F7EB-474A-BB7E-41DFC4EBCBB1}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0F63F2EE-93FF-4452-8BB0-F1266C26CD05}
