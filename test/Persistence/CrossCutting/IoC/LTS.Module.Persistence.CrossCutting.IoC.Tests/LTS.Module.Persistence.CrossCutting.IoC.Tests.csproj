@@ -20,8 +20,4 @@
     </PackageReference>
   </ItemGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\..\..\..\..\src\Persistence\CrossCutting\IoC\LTS.Module.Persistence.CrossCutting.IoC\LTS.Module.Persistence.CrossCutting.IoC.csproj" />
-  </ItemGroup>
-
 </Project>

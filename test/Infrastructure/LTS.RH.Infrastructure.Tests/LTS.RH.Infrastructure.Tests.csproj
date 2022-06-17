@@ -20,4 +20,8 @@
     </PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\src\Infrastructure\LTS.RH.Infrastructure\LTS.RH.Infrastructure.csproj" />
+  </ItemGroup>
+
 </Project>
